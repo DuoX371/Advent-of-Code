@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { concat } = require('lodash');
 const data = fs.readFileSync('input.txt', 'utf8').trimEnd().split('\r\n').map(x => x.split(''))
 
 // Part 1
